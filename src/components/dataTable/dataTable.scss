@@ -1,0 +1,36 @@
+.dataTable {
+  .dataGrid {
+    background: white;
+    padding: 20px;
+
+    .MuiDataGrid-toolbarContainer {
+      flex-direction: row-reverse;
+    }
+
+    img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .action {
+      display: flex;
+      gap: 15px;
+
+      .icn {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+      }
+
+      .icnedit {
+        color: darkgreen;
+      }
+
+      .icndelete {
+        color: darkred;
+      }
+    }
+  }
+}
